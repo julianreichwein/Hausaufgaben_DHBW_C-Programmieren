@@ -44,3 +44,11 @@ int main()
 
     return 0;
 }
+/*
+JW-2020-05-12:
+--------------
+> nice implementation! (8/10) 
+> missing extra lib (*.c + *.h) incl. includegard includeguards: -1 P
+> missing abort criteria of max iterations: -1P
+> please insert *.c files instead of .cpp next time :-) thanks !
+*/
