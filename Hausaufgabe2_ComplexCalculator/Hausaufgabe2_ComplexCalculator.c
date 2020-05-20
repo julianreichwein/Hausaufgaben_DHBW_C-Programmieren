@@ -68,7 +68,7 @@ int main()
 
   printf("Your choice: ");
   
-  do{
+  do{ // JW 2020-05-20 this captures default case in switch statement, well done !
     desiredaction = getchar();
   } while(desiredaction!='A' && desiredaction!='S' && desiredaction!='M' && desiredaction!='D');
   
@@ -108,3 +108,9 @@ int main()
 
  return 0;
 }
+/*
+JW-2020-06-20:
+--------------
+> well done! (8/10) 
+> no header and c-lib for functions and struct definition: -2 Pkt
+*/
