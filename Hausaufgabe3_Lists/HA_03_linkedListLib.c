@@ -4,7 +4,7 @@
 #include <time.h>
 #include "HA03_linkedListLib.h"
 
-void delay(int milliseconds)
+void delay(int milliseconds) 
 {
     long pause;
     clock_t now,then;
@@ -140,7 +140,7 @@ void saveList(listElement *start){
             Don't forget to close the file stream!
 */
     printf("\n\nif you wonna know wether it was successful, then open se liste\n");
-    delay(2000);
+    delay(2000); // nice idea :-) +1Pkt
     printf("just kiddin'  \n");
     if(currElem->nextElem == NULL)
     {
@@ -225,3 +225,10 @@ void stringToLower(char *string) {
     printf("\n>>stringToLower fcn is tbd.\n\n");
 
 }
+/*
+JW-2020-05-27:
+--------------
+> well done (8/10) 
+> Segmentation fault: 11 on loading list. think this is a format problem. please show homework in class. : -3Pkt
+> added delay: +1Pkt
+*/
